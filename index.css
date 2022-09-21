@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+body {
+    margin: 0px;
+    font-family: 'Poppins', sans-serif;
+    background-color: #1F2937;
+    color: #D1FAE5;
+}
+
+
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 50px;
+    max-width: 840px;
+    min-width: 375px;
+    min-height: 455px;
+    max-height: 2000px;
+   
+}
+
+.titles {
+    color: white;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+#teal-title {
+    color: #4ADF86;
+}
+#para {
+    font-weight: 200;
+}
+
+.btn-gen {
+    margin-top: 20px;
+}
+
+#btn-main {
+    background-color: #4ADF86;
+    border: none;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 16px;
+    margin-bottom: 35px;
+}
+
+hr {
+    border: 1px solid #2F3E53;
+    margin-bottom: 35px;
+}
+
+.btn-pass {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    
+    
+}
+
+.btn-oof {
+    font-size: 15px;
+    border: none;
+    padding: 10px 15px;
+    width: 250px;
+    background-color: #273549;
+    color: #4ADF86;
+    border-radius: 6px;
+    margin-right: 15px;
+    text-align: center;
+    font-weight: bold;
+
+}
+
+#btn-main:hover {
+    background-color: #19915b;
+    cursor: pointer;
+}
+
+.btn-oof:hover {
+    background-color: #0e1825;
+    color: white;
+    cursor: grab;
+}
+
+#end-paragraph {
+    font-size: 12px;
+    margin-top: 20px;
+    
+}
+
+#num-input {
+    font-family: 'Poppins', sans-serif;
+    border: #78f2bb solid;
+    background-color: #273549;
+    color: #78f2bb;
+    padding: 5px 10px;
+    font-weight: bold;
+    font-size: 15px;
+    border-radius: 5px;
+}
+
+.how-many {
+    margin-bottom: 20px;
+    
+}
